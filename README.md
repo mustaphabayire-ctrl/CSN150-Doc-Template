@@ -18,7 +18,13 @@ Transforming the ESP32-CAM into a full featured webcam.
 ##### AI GPTs used
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+1. I first connected my ESP32-CAM on the computer with the recommended USB cable
+2. I then selected the AI Thinker ESP32-CAM on the board, and port on the Arduino to make sure it matches perfectly on the sketch.
+3. I selected the file option on the Arduino and went through the Example = ESP32 = Camera = Camera Server
+4. I then edited the code on the sketch with my WIFI name and Password on the on it.
+5. I also make sure to choose the correct camera model in the code..
+6. I uploaded the code on the board and everything connected successfully without any errors.
+7. I checked the live streaming to make sure everything is working smoothly using the given IP address after the successful connection.
 
 ## Problems and Solutions
 I didn't encounter any errors while trying to connect to my camera 
