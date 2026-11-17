@@ -1,8 +1,8 @@
 # Cybersecurity : CSN150
-Project: ESP32-CAM Live Video Streaming Server
+Project: ESP32-CAM Video Web Server Access Point
 
 ## Purpose
-Transforming the ESP32-CAM into a full featured webcam. 
+Making the ESP32-CAM as an access point. 
 
 ## Equipment
 * [ESP32Cam](https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_3?crid=4FY0ECFW0ZX7&keywords=ESP32+Cam&qid=1678902050&sprefix=esp32+cam%2Caps%2C240&sr=8-3)
@@ -21,10 +21,10 @@ Transforming the ESP32-CAM into a full featured webcam.
 1. I first connected my ESP32-CAM on the computer with the recommended USB cable
 2. I then selected the AI Thinker ESP32-CAM on the board, and port on the Arduino to make sure it matches perfectly on the sketch.
 3. I selected the file option on the Arduino and went through the Example = ESP32 = Camera = Camera Server
-4. I then edited the code on the sketch with my WIFI name and Password on the on it.
+4. I then modify the code on the sketch with ESP32-CAM Video Web Server Access Point name and Password .
 5. I also make sure to choose the correct camera model in the code..
 6. I uploaded the code on the board and everything connected successfully without any errors.
-7. I checked the live streaming to make sure everything is working smoothly using the given IP address after the successful connection.
+7. I use my phone's WIFI to search and connect for ESP32-CAM Video Web Server Access Point network to make sure everything is working smoothly.
 
 ## Problems and Solutions
 I didn't encounter any errors while trying to connect to my camera 
